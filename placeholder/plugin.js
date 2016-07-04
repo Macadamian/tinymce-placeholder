@@ -38,6 +38,6 @@ tinymce.PluginManager.add('placeholder', function(editor) {
     }
 
     Label.prototype.show = function(){
-        tinymce.DOM.setStyle( this.el, 'display', '' );   
+        tinymce.DOM.setStyle( this.el, 'display', '' );
     }
 });
